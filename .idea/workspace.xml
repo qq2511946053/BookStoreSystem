@@ -9,6 +9,7 @@
     <list default="true" id="33e36ee9-4950-4d59-bd1b-9decb3a6fa96" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/BookInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/BookInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/BookType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/BookType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/Collection.java" afterDir="false" />
@@ -20,6 +21,8 @@
       <change beforePath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/Receiving.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/Receiving.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/Shopping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/Shopping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/UserInfo.java" afterDir="false" />
+=======
+>>>>>>> 218321a52f6bbfd4a92091b95b4b425ef4a4db29
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577066219561</updated>
-      <workItem from="1577066221291" duration="10481000" />
+      <workItem from="1577066221291" duration="11150000" />
     </task>
     <servers />
   </component>
