@@ -6,8 +6,44 @@ package com.vp.bookstore.pojo;
  * @Version: 1.0
  */
 
+import lombok.Data;
+
 /**
  * 收货地址表
  */
-public class Receiving {
+@Data
+public class Receiving implements java.io.Serializable{
+    private static final long serialVersionUID = -3381312015282731585L;
+
+
+    /** 收货地址ID */
+    private Integer receivingId;
+
+    /** 地区 */
+    private String receivingRegion;
+
+    /** 地址 */
+    private String receivingAddress;
+
+    /** 邮政编码 */
+    private String postalcode;
+
+    /** 收货人姓名 */
+    private String receivingName;
+
+    /** 收货人手机号 */
+    private String receivingPhone;
+
+    /** 关联用户ID */
+    private Integer userId;
+
+    public Receiving(Integer receivingId, String receivingRegion, String receivingAddress, String postalcode, String receivingName, String receivingPhone, Integer userId) {
+        this.receivingId = receivingId;
+        this.receivingRegion = receivingRegion;
+        this.receivingAddress = receivingAddress;
+        this.postalcode = postalcode;
+        this.receivingName = receivingName;
+        this.receivingPhone = receivingPhone;
+        this.userId = userId;
+    }
 }

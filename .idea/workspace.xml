@@ -6,8 +6,23 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddaa918d-0fcd-4260-928b-a287185cf024" name="Default Changelist" comment="">
+    <list default="true" id="33e36ee9-4950-4d59-bd1b-9decb3a6fa96" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/BookInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/BookInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/BookType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/BookType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/Collection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/OrderDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/Protect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/Protect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/Receiving.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/Receiving.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/Shopping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/Shopping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vp/bookstore/pojo/UserInfo.java" afterDir="false" />
+=======
+>>>>>>> 218321a52f6bbfd4a92091b95b4b425ef4a4db29
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +68,7 @@
   <component name="ProjectId" id="1VMc5J2U7UYfW1jGqDL5lwugsel" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
