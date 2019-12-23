@@ -15,80 +15,61 @@ import lombok.Data;
 public class UserInfo implements java.io.Serializable{
     private static final long serialVersionUID = -7592885055310803868L;
     /** userId */
-    private Integer userId;
+    private Integer user_id;
 
     /** 用户昵称 */
-    private String userNickname;
+    private String user_nickname;
 
     /** 手机号 */
-    private String userPhone;
+    private String user_phone;
 
     /** 邮箱 */
-    private String userEmail;
+    private String user_email;
 
     /** 用户密码 */
-    private String userPassword;
+    private String user_password;
 
     /** 年龄 */
-    private Integer userAge;
+    private Integer user_age;
 
     /** qq账号 */
-    private String userQq;
+    private String user_qq;
 
     /** 学校 */
-    private String userSchool;
+    private String user_school;
 
     /** 学校班级 */
-    private String userSchoolClass;
+    private String user_school_class;
 
     /** 地区 */
-    private String userRegion;
+    private String user_region;
 
     /** 地址 */
-    private String userAddress;
+    private String user_address;
 
     /** 用户图片 */
-    private String userImg;
+    private String user_img;
 
     /** 用户身份 */
-    private String userIdentity;
+    private String user_identity;
 
     /** 真实姓名 */
-    private String userRealname;
+    private String user_realname;
 
     /** 性别 */
-    private Integer userGender;
+    private Integer user_gender;
 
     /** 用户爱好 */
-    private String userHobby;
+    private String user_hobby;
 
     /** 用户介绍 */
-    private String userIntroduce;
+    private String user_introduce;
 
     /** 用户积分 */
-    private Integer userIntegral;
+    private Integer user_integral;
 
     public UserInfo() {
     }
 
-    public UserInfo(Integer userId, String userNickname, String userPhone, String userEmail, String userPassword, Integer userAge, String userQq, String userSchool, String userSchoolClass, String userRegion, String userAddress, String userImg, String userIdentity, String userRealname, Integer userGender, String userHobby, String userIntroduce, Integer userIntegral) {
-        this.userId = userId;
-        this.userNickname = userNickname;
-        this.userPhone = userPhone;
-        this.userEmail = userEmail;
-        this.userPassword = userPassword;
-        this.userAge = userAge;
-        this.userQq = userQq;
-        this.userSchool = userSchool;
-        this.userSchoolClass = userSchoolClass;
-        this.userRegion = userRegion;
-        this.userAddress = userAddress;
-        this.userImg = userImg;
-        this.userIdentity = userIdentity;
-        this.userRealname = userRealname;
-        this.userGender = userGender;
-        this.userHobby = userHobby;
-        this.userIntroduce = userIntroduce;
-        this.userIntegral = userIntegral;
-    }
+
 }

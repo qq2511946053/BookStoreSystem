@@ -17,13 +17,13 @@ public class Shopping implements java.io.Serializable{
 
 
     /** 购物车表ID */
-    private Integer shoppingId;
+    private Integer shopping_id;
 
     /** bookId */
-    private Integer bookId;
+    private Integer book_id;
 
     /** userId */
-    private Integer userId;
+    private Integer user_id;
 
     /** num */
     private Integer num;
@@ -31,10 +31,5 @@ public class Shopping implements java.io.Serializable{
     public Shopping() {
     }
 
-    public Shopping(Integer shoppingId, Integer bookId, Integer userId, Integer num) {
-        this.shoppingId = shoppingId;
-        this.bookId = bookId;
-        this.userId = userId;
-        this.num = num;
-    }
+
 }

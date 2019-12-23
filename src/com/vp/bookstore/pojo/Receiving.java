@@ -17,33 +17,26 @@ public class Receiving implements java.io.Serializable{
 
 
     /** 收货地址ID */
-    private Integer receivingId;
+    private Integer receiving_id;
 
     /** 地区 */
-    private String receivingRegion;
+    private String receiving_region;
 
     /** 地址 */
-    private String receivingAddress;
+    private String receiving_address;
 
     /** 邮政编码 */
     private String postalcode;
 
     /** 收货人姓名 */
-    private String receivingName;
+    private String receiving_name;
 
     /** 收货人手机号 */
-    private String receivingPhone;
+    private String user_id;
 
     /** 关联用户ID */
     private Integer userId;
 
-    public Receiving(Integer receivingId, String receivingRegion, String receivingAddress, String postalcode, String receivingName, String receivingPhone, Integer userId) {
-        this.receivingId = receivingId;
-        this.receivingRegion = receivingRegion;
-        this.receivingAddress = receivingAddress;
-        this.postalcode = postalcode;
-        this.receivingName = receivingName;
-        this.receivingPhone = receivingPhone;
-        this.userId = userId;
-    }
+
+
 }
