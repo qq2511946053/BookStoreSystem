@@ -26,7 +26,7 @@
 
 <body class="body_login">
    <div class="login_t">
-         <div class="login_logo"><a href="" target="_blank" ></a></div>
+         <div class="login_logo"><a href=""  ></a></div>
          <div class="login_title">欢迎登陆</div>
          <div class="login_txt"><img src="images/login_03.jpg" width="285" height="26" /></div>
    </div>
@@ -162,7 +162,7 @@
             </script>
              <div class="login_zc">
                   <a href="" target="_self" class="login_zc1" id="removepassword">忘记登陆密码</a>
-                  <a href="zhuce.jsp" target="_blank" class="login_zc2">免费注册</a>
+                  <a href="zhuce.jsp"  class="login_zc2">免费注册</a>
              </div>
             <script>
                 $(function () {
@@ -176,13 +176,13 @@
    </div>
    <div class="footer_m mar38">
            <div class="footer_nav">
-               <a href="" target="_blank">关于我们</a>|
-               <a href="" target="_blank">联系我们</a>|
-               <a href="" target="_blank">人才招聘</a>|
-               <a href="" target="_blank">广告服务</a>|
-               <a href="" target="_blank">友情链接</a>|
-               <a href="" target="_blank">销售联盟</a>|
-               <a href="" target="_blank">公司简介</a>
+               <a href="" >关于我们</a>|
+               <a href="" >联系我们</a>|
+               <a href="" >人才招聘</a>|
+               <a href="" >广告服务</a>|
+               <a href="" >友情链接</a>|
+               <a href="" >销售联盟</a>|
+               <a href="" >公司简介</a>
            </div>
            <div class="footer_copyright">
                 网络文化经营许可证鄂网文[2015]0278-060号  Copyright © 2015-2018  版权所有

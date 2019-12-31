@@ -33,4 +33,10 @@ public class Comment implements java.io.Serializable{
 
     /** 时间 */
     private Timestamp comment_date;
+
+    /** 评论人姓名 */
+    private String user_nickname;
+
+    /** 评论人图片 */
+    private String user_img;
 }

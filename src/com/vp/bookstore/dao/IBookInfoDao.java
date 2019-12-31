@@ -14,6 +14,20 @@ import java.util.List;
  * 书籍表接口
  */
 public interface IBookInfoDao {
+
+    /**
+     * 功能：获得书籍的全部数量
+     * 传入：null
+     * return count
+     */
+    int getBookCount();
+
+    /**
+     * 重载：自己传入字符串和对象
+     * return
+     */
+    int getBookCount(String sql,List<Object> list);
+
     /**
      * 功能：获得书籍的信息
      * 传入：book_id
@@ -42,5 +56,29 @@ public interface IBookInfoDao {
      */
     List<BookInfo> findDisCountBookRanking(int size);
 
+    /**
+     * 功能：返回类别中热门推荐的书（热度按照已售+收藏计算）
+     * 传入：name,size
+     * return list BookInfo
+     */
+    List<BookInfo> findBookTypeRanking(String name,int size);
 
+    /**
+     * 功能：返回班级-班级之间热门推荐的书（热度按照已售+收藏计算）
+     * 传入：status,end,size
+     * return list BookInfo
+     */
+    List<BookInfo> findFitClassRanking(int status,int end,int size);
+
+    /**
+     * 功能：分页查询
+     * 传入：off,size
+     * return list BookInfo
+     */
+    List<BookInfo> findLimitRanking(int off,int size);
+
+    /**
+     * 重载：自己传人参数
+     */
+    List<BookInfo> findLimitRanking(String sql,List<Object> list);
 }

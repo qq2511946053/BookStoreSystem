@@ -14,7 +14,7 @@
 
 <body class="body_login">
    <div class="login_t">
-         <div class="login_logo"><a href="" target="_blank" ></a></div>
+         <div class="login_logo"><a href=""  ></a></div>
          <div class="login_title">欢迎登陆</div>
 
    </div>
@@ -132,7 +132,7 @@
                    <input name="zc" type="button" class="bts"  value="注册"/>
                    <input name="qx" type="button" class="bts"  value="取消"/>
               </div>
-              <div class="zc_lj">已经有账号？<a href="" target="_blank" class="yellow">立即登陆</a></div>
+              <div class="zc_lj">已经有账号？<a href=""  class="yellow">立即登陆</a></div>
         </div>
    </div>
    <script>
@@ -159,13 +159,13 @@
    </script>
    <div class="footer_m mar38">
            <div class="footer_nav">
-               <a href="" target="_blank">关于我们</a>|
-               <a href="" target="_blank">联系我们</a>|
-               <a href="" target="_blank">人才招聘</a>|
-               <a href="" target="_blank">广告服务</a>|
-               <a href="" target="_blank">友情链接</a>|
-               <a href="" target="_blank">销售联盟</a>|
-               <a href="" target="_blank">公司简介</a>
+               <a href="" >关于我们</a>|
+               <a href="" >联系我们</a>|
+               <a href="" >人才招聘</a>|
+               <a href="" >广告服务</a>|
+               <a href="" >友情链接</a>|
+               <a href="" >销售联盟</a>|
+               <a href="" >公司简介</a>
            </div>
            <div class="footer_copyright">
                 网络文化经营许可证鄂网文[2015]0278-060号  Copyright © 2015-2018  版权所有

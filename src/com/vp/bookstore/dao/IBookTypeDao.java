@@ -6,6 +6,10 @@ package com.vp.bookstore.dao;
  * @Version: 1.0
  */
 
+import com.vp.bookstore.pojo.BookType;
+
+import java.util.List;
+
 /**
  * 书类别表的接口
  */
@@ -16,4 +20,18 @@ public interface IBookTypeDao {
      * return BookType_id
      */
     int findByName(String name);
+
+    /**
+     * 功能：返回所有类别名称
+     * 传入：null
+     * return list BookType
+     */
+    List<BookType> findByAllName();
+
+    /**
+     * 功能：返回所有类别名称的详细信息
+     * 传入：typename
+     * return list BookType
+     */
+    List<BookType> findByDetailName(String typename);
 }

@@ -144,9 +144,9 @@ public class JdbcUtil {
      */
     public static void close() {
         try {
-            if (conn != null) conn.close();
-            if (ps != null) ps.close();
             if (rs != null) rs.close();
+            if (ps != null) ps.close();
+            if (conn != null) conn.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }

@@ -37,4 +37,7 @@ public class Order implements java.io.Serializable{
 
     /** 订单总价 */
     private Integer receiving_id;
+
+    /** 积分 */
+    private Integer integral;
 }

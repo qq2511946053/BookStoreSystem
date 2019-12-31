@@ -6,7 +6,12 @@ package com.vp.bookstore.pojo;
  * @Version: 1.0
  */
 
+import com.vp.bookstore.dto.OrderListDto;
+import com.vp.bookstore.dto.ShoppingCartDto;
 import lombok.Data;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 用户信息表
@@ -68,8 +73,10 @@ public class UserInfo implements java.io.Serializable{
     /** 用户积分 */
     private Integer user_integral;
 
-    public UserInfo() {
-    }
+    /** 购物车 */
+    private Map<Integer, ShoppingCartDto> cartList=new HashMap<>();
 
+    /** 订单临时数据 */
+    private OrderListDto orderListDto;
 
 }

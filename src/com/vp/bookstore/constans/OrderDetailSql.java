@@ -6,4 +6,5 @@ package com.vp.bookstore.constans;
  * @Version: 1.0
  */
 public class OrderDetailSql {
+    public static final String insertOrderDetail="insert into orderdetail values(NULL,?,?,?)";
 }

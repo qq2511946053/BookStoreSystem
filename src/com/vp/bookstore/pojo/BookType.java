@@ -23,4 +23,7 @@ public class BookType implements java.io.Serializable{
 
     /** booktypeName */
     private String booktype_name;
+
+    /** booktype_detailname */
+    private String booktype_detailname;
 }

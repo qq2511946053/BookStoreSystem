@@ -240,7 +240,7 @@ color: #333;
 .books_info .dapei .dapei_r ul li .dapei_rli3{color:#e4393d;width:95px;height:24px; line-height:24px; overflow:hidden;font-weight:bold;font-size:16px;}
 .dapei_rli3 .check1{ margin-right:10px;}
 .books_info  .book_but{width:479px; height:40px; margin-top:10px;}
-.books_info  .book_but .book_but1{margin-right: 10px;float: left;}
+.books_info  .book_but .book_but1 {margin-right: 10px;float: left;}
 .books_info  .book_but .book_but1 a {margin-right: 0;float: left;overflow: hidden;position: relative;width: 178px;
 height: 38px;line-height: 38px;background-color: #ffeded;border: 1px solid #c40000;color: #c40000;font-size: 16px;text-align: center;}
 .books_info  .book_but .book_but2{margin-right: 1px;float: left;}

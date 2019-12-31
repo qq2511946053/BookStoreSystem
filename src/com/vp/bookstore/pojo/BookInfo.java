@@ -9,6 +9,7 @@ package com.vp.bookstore.pojo;
 import lombok.Data;
 
 import java.sql.Timestamp;
+import java.util.List;
 
 /**
  * 书籍信息表
@@ -73,4 +74,7 @@ public class BookInfo implements java.io.Serializable{
 
     /** 库存 */
     private Integer book_stock;
+
+    /** 评论数组 */
+    private List<Comment> commentList;
 }
