@@ -27,4 +27,11 @@ public interface IProtectInfoDao {
      * return boolean
      */
     boolean judgeProtectAnswer(Protect protect);
+
+    /**
+     * 功能：添加用户的密保问题
+     * 传入：user_id,protect_answer,protect_answer
+     * return boolean
+     */
+    boolean addProtect(Protect protect);
 }

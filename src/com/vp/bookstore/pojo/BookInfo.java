@@ -57,7 +57,7 @@ public class BookInfo implements java.io.Serializable{
     private Integer userid;
 
     /** 是否可以兑换 */
-    private Integer book_isexchange;
+    private Boolean book_isexchange;
 
     /** 出版社 */
     private String book_press;

@@ -32,10 +32,13 @@ public class Receiving implements java.io.Serializable{
     private String receiving_name;
 
     /** 收货人手机号 */
-    private String user_id;
+    private String receiving_phone;
 
     /** 关联用户ID */
-    private Integer userId;
+    private Integer user_id;
+
+    /** 默认收获地址 */
+    private Integer status;
 
 
 

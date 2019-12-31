@@ -10,4 +10,5 @@ package com.vp.bookstore.constans;
  * 书籍表的Sql语句
  */
 public class BookInfoSql {
+    public static final String FINDBYBOOKID="select*from bookinfo where book_id=?";
 }
