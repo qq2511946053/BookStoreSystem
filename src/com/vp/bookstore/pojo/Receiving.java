@@ -37,6 +37,7 @@ public class Receiving implements java.io.Serializable{
     /** 关联用户ID */
     private Integer user_id;
 
-
+    /** 默认收获地址 */
+    private Integer status;
 
 }

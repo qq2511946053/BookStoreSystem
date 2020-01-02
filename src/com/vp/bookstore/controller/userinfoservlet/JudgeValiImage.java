@@ -17,6 +17,7 @@ public class JudgeValiImage extends HttpServlet{
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
             //生成图片
             VerifyCode vc = new VerifyCode();
             //将生成的验证码图片存入response实体中
@@ -25,7 +26,7 @@ public class JudgeValiImage extends HttpServlet{
             response.setHeader("Pragma", "no-cache");
             response.setHeader("Cache-Control", "no-cache");
             //将生成的验证码的文本内容输出到控制台
-            code = vc.getCode();
+            code=vc.getCode();
 
     }
 }

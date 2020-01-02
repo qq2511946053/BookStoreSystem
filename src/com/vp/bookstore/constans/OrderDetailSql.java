@@ -7,4 +7,6 @@ package com.vp.bookstore.constans;
  */
 public class OrderDetailSql {
     public static final String insertOrderDetail="insert into orderdetail values(NULL,?,?,?)";
+    public static final String FINDORDERDETAIL="select * from orderdetail where order_id=?";
+    public static final String DELETEORDERDETAILBYBOOKID="delete from orderdetail where order_id=? and book_id=?";
 }

@@ -420,7 +420,7 @@ function _init_area(){  //初始化函数
 	}
 	change(0);
 	//alert(document.getElementById("s_city").value);
-	document.getElementById("s_province").value="湖北省";
+	document.getElementById("s_province").value="省份";
 	//document.getElementById("s_city").value="武汉市";
 	//document.getElementById("s_county").value="江夏区";
 }

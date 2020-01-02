@@ -4,6 +4,25 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
     <welcome-file-list>
-        <welcome-file>reception/login.jsp</welcome-file>
+        <welcome-file>reception/pagehome.jsp</welcome-file>
     </welcome-file-list>
+
+    <filter>
+        <filter-name>SessionFilter</filter-name>
+        <filter-class>com.vp.bookstore.filter.SessionFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>SessionFilter</filter-name>
+        <url-pattern>/ShowCart</url-pattern>
+        <url-pattern>/CartOperation</url-pattern>
+        <url-pattern>/AddShopping</url-pattern>
+        <url-pattern>/CheckReceiving</url-pattern>
+        <url-pattern>/NewOrder</url-pattern>
+        <url-pattern>/ShowSubmissionOrder</url-pattern>
+        <url-pattern>/ShowUpdateOrderReceiving</url-pattern>
+        <url-pattern>/SubmitOrder</url-pattern>
+        <url-pattern>/reception/MyOrder.jsp</url-pattern>
+        <url-pattern>/reception/Profile.jsp</url-pattern>
+    </filter-mapping>
 </web-app>

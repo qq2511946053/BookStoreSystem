@@ -62,7 +62,7 @@ public class UserInfo implements java.io.Serializable{
     private String user_realname;
 
     /** 性别 */
-    private Integer user_gender;
+    private String user_gender;
 
     /** 用户爱好 */
     private String user_hobby;

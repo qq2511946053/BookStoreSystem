@@ -19,4 +19,5 @@ public class BookInfoSql {
     public static final String findFitClassRanking="select book_id,book_name,book_discountprice,book_img,book_collection,book_sell from bookinfo where book_status=1 and book_fitclass BETWEEN ? and ? order by book_collection+book_sell desc limit 0,?";
     public static final String findLimitRanking="select book_id,book_name,book_img,book_price,book_discountprice from bookinfo limit ?,?";
     public static final String updateBookStock="update bookinfo SET book_stock=book_stock-? where book_id=?";
+    public static final String FINDBYBOOKID="select*from bookinfo where book_id=?";
 }

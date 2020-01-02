@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.List;
 import java.util.Map;
 
@@ -41,12 +42,6 @@ public class AddShopping extends HttpServlet {
         List<ShoppingCartDto> shoppingCartDtos = JSON.parseArray(data, ShoppingCartDto.class);
         HttpSession session = req.getSession();
         UserInfo userInfo = (UserInfo) session.getAttribute("userInfo");
-        //模拟登录
-        if (userInfo==null){
-            System.out.println("模拟登录!");
-            userInfo=new UserInfo();
-            userInfo.setUser_id(6);
-        }
         Map<Integer, ShoppingCartDto> cartList = userInfo.getCartList();
         for (ShoppingCartDto shoppingCartDto : shoppingCartDtos) {
             if (cartList.containsKey(shoppingCartDto.getBook_id())){
@@ -59,5 +54,7 @@ public class AddShopping extends HttpServlet {
         }
         userInfo.setCartList(cartList);
         session.setAttribute("userInfo",userInfo);
+        PrintWriter writer = resp.getWriter();
+        writer.write("success");
     }
 }

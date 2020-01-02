@@ -7,6 +7,7 @@ import com.vp.bookstore.util.JdbcUtil;
 
 import java.util.List;
 
+
 /**
  * @Author: duYang
  * @Date: 2019/12/24 9:30
@@ -21,9 +22,9 @@ public class IBookInfoDaoImpl implements IBookInfoDao {
 
     @Override
     public int getBookCount(String sql, List<Object> list) {
-        Object[] objects=new Object[list.size()];
+        Object[] objects = new Object[list.size()];
         for (int i = 0; i < list.size(); i++) {
-            objects[i]=list.get(i);
+            objects[i] = list.get(i);
         }
         return JdbcUtil.executeCount(sql, objects);
     }
@@ -49,13 +50,13 @@ public class IBookInfoDaoImpl implements IBookInfoDao {
     }
 
     @Override
-    public List<BookInfo> findBookTypeRanking(String name,int size) {
-        return JdbcUtil.executeQuerys(BookInfoSql.findBookTypeRanking, new Object[]{name,size}, BookInfo.class);
+    public List<BookInfo> findBookTypeRanking(String name, int size) {
+        return JdbcUtil.executeQuerys(BookInfoSql.findBookTypeRanking, new Object[]{name, size}, BookInfo.class);
     }
 
     @Override
-    public List<BookInfo> findFitClassRanking(int status,int end,int size) {
-        return JdbcUtil.executeQuerys(BookInfoSql.findFitClassRanking, new Object[]{status,end,size}, BookInfo.class);
+    public List<BookInfo> findFitClassRanking(int status, int end, int size) {
+        return JdbcUtil.executeQuerys(BookInfoSql.findFitClassRanking, new Object[]{status, end, size}, BookInfo.class);
     }
 
     @Override
@@ -65,9 +66,9 @@ public class IBookInfoDaoImpl implements IBookInfoDao {
 
     @Override
     public List<BookInfo> findLimitRanking(String sql, List<Object> list) {
-        Object[] objects=new Object[list.size()];
+        Object[] objects = new Object[list.size()];
         for (int i = 0; i < list.size(); i++) {
-            objects[i]=list.get(i);
+            objects[i] = list.get(i);
         }
         return JdbcUtil.executeQuerys(sql, objects, BookInfo.class);
     }

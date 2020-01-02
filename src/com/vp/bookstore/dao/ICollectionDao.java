@@ -8,11 +8,15 @@ package com.vp.bookstore.dao;
 
 import com.vp.bookstore.pojo.Collection;
 
+
+import java.util.List;
+
 /**
  * 收藏记录表的接口
  */
 public interface ICollectionDao {
     /**
+<<<<<<< HEAD
      * 功能：判断此用户是否收藏这本书
      * 传入 collection(book_id,user_id)
      * 返回 boolean
@@ -25,4 +29,25 @@ public interface ICollectionDao {
      * 返回 boolean
      */
     boolean insertCollection(Collection collection);
+
+    /**
+     * 功能：查看用户收藏的书籍id
+     * 传入：user_id
+     * 传出：Boolean
+     */
+    List<Collection> findcollectionByuserid(int user_id);
+
+    /**
+     * 功能：分页查询查看用户收藏的书籍id
+     * 传入：user_id
+     * 传出：Boolean
+     */
+    List<Collection> pagefindcollectionByuserid(int user_id,int index,int pagesize);
+
+    /**
+     * 功能：删除收藏的书籍id
+     * 传入：user_id,book_id
+     * 传出：Boolean
+     */
+    Boolean deletecollectionBybookid(int user_id,int book_id);
 }

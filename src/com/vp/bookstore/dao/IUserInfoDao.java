@@ -33,4 +33,17 @@ public interface IUserInfoDao {
      */
     boolean insertUserAccount(UserInfo userInfo);
 
+    /**
+     * 功能：修改用户信息
+     * 传入：UserInfo
+     * return boolean
+     */
+    boolean updateUserAccount(UserInfo userInfo);
+
+    /**
+     * 功能：修改密码
+     * 传入：user_id，password
+     * return boolean
+     */
+    boolean updateUserpassword(int user_id,String password);
 }

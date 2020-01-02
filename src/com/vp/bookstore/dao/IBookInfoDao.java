@@ -29,11 +29,11 @@ public interface IBookInfoDao {
     int getBookCount(String sql,List<Object> list);
 
     /**
-     * 功能：获得书籍的信息
+     * 功能：查询书籍的信息
      * 传入：book_id
      * return BookInfo
      */
-    BookInfo findByBookId(int id);
+    BookInfo findByBookId(int book_id);
 
     /**
      * 功能：返回热销排行榜书籍信息
